@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>PCL-跳跳鱼小队专用版</AssemblyName>
+    <RootNamespace>PCLMini</RootNamespace>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <Deterministic>true</Deterministic>
+    <SatelliteResourceLanguages>zh-Hans</SatelliteResourceLanguages>
+    <Product>PCL-跳跳鱼小队专用版</Product>
+    <AssemblyTitle>PCL-跳跳鱼小队专用版</AssemblyTitle>
+    <Description>最小 Minecraft 启动器：下载游戏 / 安装 Java / 启动游戏</Description>
+    <Company>跳跳鱼小队</Company>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Launcher.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+  </ItemGroup>
+
+</Project>
